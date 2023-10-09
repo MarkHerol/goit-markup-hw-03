@@ -43,7 +43,11 @@ body{
     font-weight:normal;
 }
 
+/* NAV BAR*/
+
 .my-btn{
+    display: flex;
+    justify-content: space-around;
     background-color:#4d5ae5;
     text-decoration:none;
     color:#fff;
@@ -60,9 +64,16 @@ body{
     outline-color:#4d5ae5;
 }
 
+.my-btn{
+    -ms-flex-align: center;
+}
+
 .logo{
     text-decoration: none;
-        color: var(NAVY-BLUE);
+    color: var(NAVY-BLUE);
+
+
+
 }
 
 .logo span{
