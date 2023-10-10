@@ -3,85 +3,170 @@
     --NAVY-BLUE: #2e2f42;
 }
 
-.header-link:hover{
-    color:#4d5ae5;
+/*HEADER*/
+/*logo, menu link, contact*/
+.flex-container{
+    display:flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+    margin:0%;
 }
+.menu{
+    display:flex;
+    gap: 32px; 
+    align-items: center;
+  }
 
-h1{
-    text-align:center;
-    text-decoration:none;
-    color:#fff;   
+.contact{
+    display:flex;
+    gap: 32px; 
+    align-items: center;
+  }
+
+a{
+    text-decoration: none;
+    color:#2e2f42;
+}
+a:hover{
+    color:aqua;
+}
+.my-studio{
+    color:#4d5ae5;
+}   
+.menu{
+    text-align: left;
+    padding:0;
+    
+}
+.contact{
+    text-align: left;
+    padding:0; 
 }
 ul{
+    list-style: none;
     text-align: left;
     padding:0;
  }
 
 .list {
     list-style:none;
-}
-
-.link {
-    text-decoration: none;
-    color:#2e2f42;
-    font-weight:500;
-}
-
-.my-studio{
-    text-decoration:none;
-    color:#4d5ae5;
-}
-
-h2{
-    text-align:center;
-}
-
-body{
-    font-family:"roboto", sans-serif;
-    font-size:"normal";
-    font-style:"normal";
-    font-weight:normal;
-}
-
-/* NAV BAR*/
-
-.my-btn{
     display: flex;
-    justify-content: space-around;
-    background-color:#4d5ae5;
-    text-decoration:none;
-    color:#fff;
-    border-radius:4px;
-    border-radius: 4px;
-    border-color: grey;
-    cursor:pointer;
-    
+    text-align: center;  
 }
-.my-btn:hover {
-    background-color:#2e2f42;
+li{
+    text-align: center;
 }
-.my-btn:focus{
-    outline-color:#4d5ae5;
+
+/*hero section*/
+.my-btn{
+    background-color:var(--IRIS, #4D5AE5) 
 }
 
 .my-btn{
-    -ms-flex-align: center;
+    border-radius: 4px;
+    padding:16px 32px;
+    font-size:16px;
+    font-style: normal;
+    font-weight: 500;
+    box-shadow: 0px 4px 4px 0px;
 }
 
+.my-btn{
+    display: inline-flex;
+    align-items: flex-start;    
+}
+
+.hero{
+    background-color:#2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    text-align: center;
+}
+
+.hero{
+    text-decoration: none;
+    color:#fff;
+}
+
+.my-btn{
+    text-decoration: none;
+    color:#fff; 
+}
+
+.my-btn:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+
+/*BODY*/
+/*benifit section*/
+h2{
+    text-align: center;
+}
+
+.benefit{
+    text-align: left;
+    padding:0;
+}
+.benefit{
+    display:flex;
+    flex-direction:inherit;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.device{
+    text-align: left;
+    padding:0;
+}
+.device{
+    display: flex;
+    padding-bottom: 0px;
+    flex-direction: inherit;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.teams{
+    text-align: left;
+    padding:0;
+}
+
+.teams{
+    display: flex;
+    padding-bottom: 0px;
+    flex-direction:inherit;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+/*FOOTER*/
+footer{
+    background-color:#2e2f42;
+    text-decoration:none;
+    color:#fff  
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+}
 .logo{
     text-decoration: none;
     color: var(NAVY-BLUE);
-
-
-
 }
 
 .logo span{
     color: var(IRIS);
 }
 
-footer{
-    background-color:#2e2f42;
-    text-decoration:none;
-    color:#fff
+.footer-link{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
 }
