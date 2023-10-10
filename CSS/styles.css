@@ -8,19 +8,32 @@
 .flex-container{
     display:flex;
     justify-content: center;
-    gap: 32px;
+    gap: 40px;
     align-items: center;
 }
 .menu{
     display:flex;
     gap: 32px; 
     align-items: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+    
   }
 
 .contact{
     display:flex;
     gap: 32px; 
     align-items: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
   }
 
 a{
@@ -68,7 +81,6 @@ li{
     font-size:16px;
     font-style:inherit;
     font-weight: 500;
-    box-shadow: 0px 4px 4px 0px;
 }
 
 .my-btn{
@@ -102,15 +114,28 @@ li{
 /*benifit section*/
 h2{
     text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
 }
 
 .benefit{
-    text-align: left;
-    padding:0;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
+
 .benefit{
     display:flex;
-    flex-direction:inherit;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 32px;
@@ -118,29 +143,31 @@ h2{
 
 .device{
     text-align: left;
-    padding:0;
+    padding-top: 100px;
+    background:#FFF;
 }
 .device{
     display: flex;
-    padding-bottom: 0px;
+    padding-bottom: 100px;
     flex-direction: inherit;
     justify-content: center;
     align-items: center;
-    gap: 32px;
+    gap: 24px;
 }
 
 .teams{
-    text-align: left;
-    padding:0;
+    font-family: Roboto;
+    background: var(--CLOUD, #F4F4FD);
 }
 
 .teams{
     display: flex;
-    padding-bottom: 0px;
+    padding-top: 232px;
+    padding-bottom: 120px;
     flex-direction:inherit;
     justify-content: center;
     align-items: center;
-    gap: 32px;
+    gap: 24px;
 }
 
 /*FOOTER*/
@@ -155,11 +182,16 @@ footer{
 
 .footer-link{
     display: flex;
-    padding-left: 10%;
+    padding-left: 156px;
+    padding-right: 1020px;
+    padding-top: 140px;
 }
+
 .footer-body{
     display: flex;
-    padding-left: 10%; 
+    padding-left: 156px;
+    padding-right: 1020px;
+    padding-bottom: 100px;
 }
 
 
