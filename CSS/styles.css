@@ -7,10 +7,9 @@
 /*logo, menu link, contact*/
 .flex-container{
     display:flex;
-    flex-direction: row;
+    justify-content: center;
     gap: 32px;
     align-items: center;
-    margin:0%;
 }
 .menu{
     display:flex;
@@ -67,7 +66,7 @@ li{
     border-radius: 4px;
     padding:16px 32px;
     font-size:16px;
-    font-style: normal;
+    font-style:inherit;
     font-weight: 500;
     box-shadow: 0px 4px 4px 0px;
 }
@@ -150,12 +149,21 @@ footer{
     text-decoration:none;
     color:#fff  
 }
-
 footer{
-    display: flex;
-    flex-direction: row;
-    justify-content:left;
+   
 }
+
+.footer-link{
+    display: flex;
+    padding-left: 10%;
+}
+.footer-body{
+    display: flex;
+    padding-left: 10%; 
+}
+
+
+
 .logo{
     text-decoration: none;
     color: var(NAVY-BLUE);
@@ -163,10 +171,4 @@ footer{
 
 .logo span{
     color: var(IRIS);
-}
-
-.footer-link{
-    display: flex;
-    flex-direction: row;
-    justify-content:left;
 }
