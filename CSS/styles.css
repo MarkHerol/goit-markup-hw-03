@@ -76,7 +76,6 @@ li{
 }
 
 .my-btn{
-    border-radius: 4px;
     padding:16px 32px;
     font-size:16px;
     font-style:inherit;
@@ -168,6 +167,31 @@ h2{
     justify-content: center;
     align-items: center;
     gap: 24px;
+}
+
+.team-mark{
+    background:white;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px;
+}
+.team-tom{
+    background:white;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px;
+}
+.team-camilla{
+    background:white;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px;
+}
+.team-daniel{
+    background:white;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px;
 }
 
 /*FOOTER*/
